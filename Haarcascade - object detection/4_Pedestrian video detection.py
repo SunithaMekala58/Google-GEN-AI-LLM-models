@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 # Create our body classifier
-body_classifier = cv2.CascadeClassifier(r'C:\Users\SUNITHA\A VS CODE\PYDEVCODE\OPENCV\Haarcascades\haarcascade_fullbody.xml')
+body_classifier = cv2.CascadeClassifier(r'C:\Users\SUNITHA\A VS CODE\PYDEVCODE\OPENCV\Haarcascades\pedestrian.xml')
 
 # Initiate video capture for video file
 cap = cv2.VideoCapture(r'C:\\Users\\SUNITHA\\A VS CODE\\PYDEVCODE\\OPENCV\\pedestrian.mp4')
