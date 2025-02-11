@@ -14,32 +14,31 @@ Get an API key from OpenRouter.
 ## Usage:
 1. Import OpenAI and Initialize Client
 
-from openai import OpenAI
+* from openai import OpenAI
 
-client = OpenAI(
-  base_url="https://openrouter.ai/api/v1",  # OpenRouter API endpoint
-  api_key="your-api-key",  # Replace with your actual OpenRouter API key
-)
+* client = OpenAI(
+*  base_url="https://openrouter.ai/api/v1",  # OpenRouter API endpoint
+*  api_key="your-api-key",  # Replace with your actual OpenRouter API key)
 
 base_url: Directs requests to OpenRouter instead of OpenAI’s official API.
 api_key: Required for authentication.
 
 2. Sending a Chat Completion Request
 
-completion = client.chat.completions.create(
-  extra_headers={
-    "HTTP-Referer": "<YOUR_SITE_URL>",  # Optional: Helps with ranking on OpenRouter.ai
-    "X-Title": "<YOUR_SITE_NAME>",  # Optional: Site title for ranking on OpenRouter.ai
-  },
-  extra_body={},  # Reserved for additional API parameters
-  model="deepseek/deepseek-r1:free",  # Specifies the AI model to use
- messages=[
-    {
+* completion = client.chat.completions.create(
+*  extra_headers={
+*    "HTTP-Referer": "<YOUR_SITE_URL>",  # Optional: Helps with ranking on OpenRouter.ai
+*    "X-Title": "<YOUR_SITE_NAME>",  # Optional: Site title for ranking on OpenRouter.ai
+*  },
+*  extra_body={},  # Reserved for additional API parameters
+*  model="deepseek/deepseek-r1:free",  # Specifies the AI model to use
+* messages=[
+*    {
       "role": "user",
       "content": "How a non technical user transit to data analyst?"
     }
   ]
-)
+* )
 
 Sends a message to the AI model as a user query.
 The model processes the request and returns a response.
