@@ -51,4 +51,9 @@ Extracts and prints the model's response from the completion object.
 
 ## Example Output
 
-Transitioning to a data analyst role involves learning SQL, Python, and data visualization tools like Power BI or Tableau. Start with online courses, practice datasets, and work on smal
+Transitioning from a non-technical role to a data analyst involves a strategic blend of skill acquisition, practical experience, and networking. Here's a structured roadmap to guide the journey:
+
+### **Build Foundational Skills**
+   - **Data Literacy & Statistics**: Start with basics like data types, descriptive statistics, and data visualization principles. Platforms like Khan Academy or Coursera offer introductory courses.
+   - **Excel Mastery**: Learn advanced functions (VLOOKUP, INDEX-MATCH), pivot tables, and basic data manipulation. Consider free tutorials on YouTube or paid courses on Udemy.
+   - **SQL**: Begin with simple queries (SELECT, WHERE, JOINs) using platforms like Codecademy, DataCamp, or Mode Analytics. Focus on retrieving and aggregating data.
